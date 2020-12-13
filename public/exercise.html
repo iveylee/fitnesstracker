@@ -12,23 +12,25 @@
 
 <body>
   <nav>
-    <a href="/">Fitness Tracker</a>
+    <a href="/">Fitness</a>
     <a href="/stats">Dashboard</a>
   </nav>
   <div class="wrapper">
     <header>
-      <h1>Fitness Tracker</h1>
+      <h1>Fitness</h1>
     </header>
     <div class="ui container exercise">
       <div class="ui raised card m-auto">
-        <h2>Add Your Exercise</h2>
+        <h2> Add Exercise</h2>
         <form action="POST">
           <div class="workout-type">
             <label for="type">Exercise Type:</label>
             <select name="type" id="type">
               <option disabled selected>Select Exercise Type</option>
-              <option value="resistance">Resistance</option>
-              <option value="cardio">Cardio</option>
+              <option value="Strength Training">Strength Training</option>
+              <option value="Swimming">Swimming</option>
+              <option value="BasketBall">BasketBall</option>
+              <option value="VolleyBall">VolleyBall</option>
             </select>
           </div>
           <div class="cardio-form d-none">
